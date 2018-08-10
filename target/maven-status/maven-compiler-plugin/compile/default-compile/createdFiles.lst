@@ -1,0 +1,4 @@
+com\krzysiek\ws\service\PatientService.class
+com\krzysiek\ws\service\PatnientServiceImp.class
+com\krzysiek\ws\model\Patient.class
+com\krzysiek\ws\soap\RestwsApplication.class

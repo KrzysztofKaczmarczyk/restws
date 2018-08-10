@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.krzysiek.ws.soap.RestwsApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.356 s <<< FAILURE! - in com.krzysiek.ws.soap.RestwsApplicationTests
+contextLoads(com.krzysiek.ws.soap.RestwsApplicationTests)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'springViewResolverProvider' defined in URL [jar:file:/C:/Users/zz622al/.m2/repository/org/apache/cxf/cxf-rt-frontend-jaxrs/3.2.1/cxf-rt-frontend-jaxrs-3.2.1.jar!/org/apache/cxf/jaxrs/spring/SpringViewResolverProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.web.servlet.LocaleResolver' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.web.servlet.LocaleResolver' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+
